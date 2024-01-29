@@ -1,0 +1,40 @@
+.about {
+  &__body {
+    color: var(--Zinc-500, #71717a);
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+  }
+  &__container {
+    padding: 60px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__dec {
+    font-weight: 800;
+  }
+  &__header {
+    color: var(--Primary-Black, #000);
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.96px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__right-wrapper {
+    max-width: 610px;
+    width: 100%;
+  }
+
+  &__img {
+    max-width: 525px;
+    width: 100%;
+  }
+}

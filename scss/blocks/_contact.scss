@@ -1,0 +1,125 @@
+.contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &__body {
+    color: var(--Zinc-500, #71717a);
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    margin-bottom: 40px;
+  }
+
+  &__send {
+    display: block;
+    color: var(--Primary-Black, #000);
+    font-family: Sora;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 114.286% */
+    letter-spacing: -0.56px;
+    margin-bottom: 16px;
+  }
+
+  &__btn {
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 16px 20px;
+    color: var(--Primary-White, #fff);
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+  &__container {
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__dec {
+    font-size: 48px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-weight: 800;
+    color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  &__form {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    flex-direction: column;
+  }
+  &__header {
+    color: var(--Primary-Black, #000);
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 116.667% */
+    letter-spacing: -0.96px;
+    margin-bottom: 20px;
+  }
+  &__input {
+    padding: 18px 24px;
+    color: var(--Zinc-500, #71717a);
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.32px;
+    resize: none;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 4px;
+    border: 1.4px solid var(--Primary-Black, #000);
+  }
+  &__item {
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &__item-link {
+    padding: 16px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__wrapper {
+    max-width: 600px;
+    width: 100%;
+  }
+}

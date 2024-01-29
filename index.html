@@ -1,32 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asrorbek</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Zypherix - IT Company</title>
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
+      <div class="container">
+        <div class="header__container">
+          <a href="#" class="header__logo-link">
+            <img src="./img/logo.svg" alt="" class="header__logo" />
 
+            <p class="header__logo-text">Zypherix</p>
+          </a>
+
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="#about" class="header__item-link">About Us</a>
+            </li>
+
+            <li class="header__menu-item">
+              <a href="#skill" class="header__item-link">Skills</a>
+            </li>
+
+            <li class="header__menu-item">
+              <a href="#project" class="header__item-link">Project</a>
+            </li>
+
+            <li class="header__menu-item">
+              <a href="#contact" class="header__item-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <button class="header__btn">Log In</button>
         </div>
+      </div>
     </header>
 
     <main class="main">
-        <section class="hero">
-            <div class="container">
-                <div class="hero__container">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__container" data-aos="fade" data-aos-duration="1000">
+            <h2 class="hero__header">
+              Discover <span class="hero__bold-header">Zypherix.</span><br />
+              <span class="hero__bold-header">From </span
+              ><span class="hero__dec-header">Uzbekistan</span><br />
+              To the <span class="hero__bold-header">Digital World</span>
+            </h2>
 
+            <p class="hero__body">
+              I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown printer
+              took a galley of type and scrambled it to specimen book.
+            </p>
+
+            <ul class="hero__list">
+              <li class="hero__item">
+                <a href="#" class="hero__item-link"
+                  ><img width="25" src="./img/github.svg" alt=""
+                /></a>
+              </li>
+
+              <li class="hero__item">
+                <a href="#" class="hero__item-link"
+                  ><img width="25" src="./img/linkedin.svg" alt=""
+                /></a>
+              </li>
+
+              <li class="hero__item">
+                <a href="#" class="hero__item-link"
+                  ><img width="25" src="./img/instagram.svg" alt=""
+                /></a>
+              </li>
+
+              <li class="hero__item">
+                <a href="#" class="hero__item-link"
+                  ><img width="25" src="./img/telegram.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="skill" id="skill">
+        <div class="container">
+          <div class="skill__container">
+            <h2 class="skill__header">
+              Our <span class="skill__dec-header">Skills</span>
+            </h2>
+
+            <ul class="skill__list">
+              <li class="skill__item"><p class="skill__item-body">Git</p></li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">Javascript</p>
+              </li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">Sass/Scss</p>
+              </li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">Node Js</p>
+              </li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">React Js</p>
+              </li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">Python</p>
+              </li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">Django</p>
+              </li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">Express</p>
+              </li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">Typescript</p>
+              </li>
+
+              <li class="skill__item">
+                <p class="skill__item-body">Socket.io</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="project" id="project">
+        <div class="container">
+          <div class="project__container">
+            <h2 class="project__header">
+              Our <span class="project__dec">Projects</span>
+            </h2>
+
+            <ul class="project__list">
+              <li class="project__item">
+                <a href="#" class="project__link"
+                  ><img src="./img/p1.png" alt="" class="project__item-img"
+                /></a>
+
+                <div class="project__item-wrapper">
+                  <h3 class="project__item-number">01</h3>
+
+                  <h4 class="project__item-header">
+                    Crypto Screener Application
+                  </h4>
+
+                  <p class="project__item-body">
+                    I'm Evren Shah Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to
+                    specimen book.
+                  </p>
+
+                  <a href="#" class="project__item-link"
+                    ><img src="./img/read.png" alt=""
+                  /></a>
                 </div>
+              </li>
+
+              <li class="project__item">
+                <div class="project__item-wrapper">
+                  <h3 class="project__item-number">02</h3>
+
+                  <h4 class="project__item-header">
+                    Euphoria - Ecommerce (Apparels) Website Template
+                  </h4>
+
+                  <p class="project__item-body">
+                    I'm Evren Shah Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to
+                    specimen book. when an unknown printer took a galley of type
+                    and scrambled it to specimen book.
+                  </p>
+
+                  <a href="#" class="project__item-link"
+                    ><img src="./img/read.png" alt=""
+                  /></a>
+                </div>
+
+                <a class="project__link" href="#"
+                  ><img src="./img/p2.png" alt="" class="project__item-img"
+                /></a>
+              </li>
+
+              <li class="project__item">
+                <a href="#" class="project__link"
+                  ><img src="./img/p3.png" alt="" class="project__item-img"
+                /></a>
+
+                <div class="project__item-wrapper">
+                  <h3 class="project__item-number">03</h3>
+
+                  <h4 class="project__item-header">Blog Website Template</h4>
+
+                  <p class="project__item-body">
+                    I'm Evren Shah Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to
+                    specimen book.
+                  </p>
+
+                  <a href="#" class="project__item-link"
+                    ><img src="./img/read.png" alt=""
+                  /></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__container">
+            <div class="about__img-wrapper" data-aos="fade" data-aos-duration="1000">
+              <img
+                src="./img/about.png"
+                width="300"
+                alt=""
+                class="about__img"
+              />
             </div>
-        </section>
+
+            <div class="about__right-wrapper" data-aos="fade" data-aos-duration="1000">
+              <h2 class="about__header">
+                About <span class="about__dec">Us</span>
+              </h2>
+
+              <p class="about__body">
+                I'm a passionate, self-proclaimed designer who specializes in
+                full stack development (React.js & Node.js). I am very
+                enthusiastic about bringing the technical and visual aspects of
+                digital products to life. User experience, pixel perfect design,
+                and writing clear, readable, highly performant code matters to
+                me. <br />
+                <br />
+                I began my journey as a web developer in 2015, and since then,
+                I've continued to grow and evolve as a developer, taking on new
+                challenges and learning the latest technologies along the way.
+                Now, in my early thirties, 7 years after starting my web
+                development journey, I'm building cutting-edge web applications
+                using modern technologies such as Next.js, TypeScript, Nestjs,
+                Tailwindcss, Supabase and much more. <br /><br />When I'm not in
+                full-on developer mode, you can find me hovering around on
+                twitter or on indie hacker, witnessing the journey of early
+                startups or enjoying some free time. You can follow me on
+                Twitter where I share tech-related bites and build in public, or
+                you can follow me on GitHub.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="test">
+        <div class="container">
+          <div class="test__container">
+            <h2 class="test__header">
+              Our <span class="test__dec">Testimonial</span>
+            </h2>
+
+            <ul class="test__list" data-aos="fade" data-aos-duration="1000">
+              <li class="test__item" >
+                <img src="./img/test1.png" alt="" class="test__img" />
+
+                <p class="test__body">
+                  I recently had to jump on 10+ different calls across eight
+                  different countries to find the right owner.
+                </p>
+
+                <hr class="test__line" />
+
+                <h3 class="test__header-item">Flora sheen</h3>
+
+                <h4 class="test__subheader">Designer</h4>
+              </li>
+
+              <li class="test__item">
+                <img src="./img/test1.png" alt="" class="test__img" />
+
+                <p class="test__body">
+                  I recently had to jump on 10+ different calls across eight
+                  different countries to find the right owner.
+                </p>
+
+                <hr class="test__line" />
+
+                <h3 class="test__header-item">Flora sheen</h3>
+
+                <h4 class="test__subheader">Designer</h4>
+              </li>
+
+              <li class="test__item">
+                <img src="./img/test1.png" alt="" class="test__img" />
+
+                <p class="test__body">
+                  I recently had to jump on 10+ different calls across eight
+                  different countries to find the right owner.
+                </p>
+
+                <hr class="test__line" />
+
+                <h3 class="test__header-item">Flora sheen</h3>
+
+                <h4 class="test__subheader">Designer</h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact__container">
+            <form class="contact__form" onsubmit="return sendTelegram()">
+              <input
+                type="text"
+                class="contact__input"
+                required
+                name="name"
+                id="name"
+                placeholder="Your name*"
+              />
+
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email*"
+                required
+                class="contact__input"
+              />
+
+              <input
+                class="contact__input"
+                type="text"
+                name="website"
+                id="website"
+                placeholder="Your website (If exists)"
+              />
+
+              <textarea
+                class="contact__input"
+                name="text"
+                id="text"
+                cols="30"
+                placeholder="How can I help?*"
+                required
+                rows="10"
+              ></textarea>
+
+              <ul class="contact__list">
+                <li class="contact__item">
+                  <button class="contact__btn" type="submit">
+                    Get In Touch
+                  </button>
+                </li>
+
+                <li class="contact__item">
+                  <a href="#" class="contact__item-link"
+                    ><img width="25" src="./img/github.svg" alt=""
+                  /></a>
+                </li>
+
+                <li class="contact__item">
+                  <a href="#" class="contact__item-link"
+                    ><img width="25" src="./img/linkedin.svg" alt=""
+                  /></a>
+                </li>
+
+                <li class="contact__item">
+                  <a href="#" class="contact__item-link"
+                    ><img width="25" src="./img/instagram.svg" alt=""
+                  /></a>
+                </li>
+
+                <li class="contact__item">
+                  <a href="#" class="contact__item-link"
+                    ><img width="25" src="./img/telegram.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </form>
+
+            <div class="contact__wrapper">
+              <h2 class="contact__header">
+                Let's <span class="contact__dec">talk</span> for <br />
+                Something special
+              </h2>
+
+              <p class="contact__body">
+                I seek to push the limits of creativity to create high-engaging,
+                user-friendly, and memorable interactive experiences.
+              </p>
+
+              <a class="contact__send" href="mailto:support@zypherix.uz"
+                >support@zypherix.uz</a
+              >
+
+              <a class="contact__send" href="tel:+998935662002"
+                >+998935662002</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            
+      <div class="container">
+        <div class="footer__container">
+          <a href="#" class="footer__left-wrapper">
+            <img src="./img/footer-logo.png" alt="" class="footer__logo" />
+
+            <p class="footer__logo-name">Zypherix</p>
+          </a>
+
+          <div class="footer__right-wrapper">
+            <p class="footer__year">@2024 Zypherix</p>
+
+            <p class="footer__country">Made In Uzbekistan</p>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="./js/telegram.js"></script>
 </html>

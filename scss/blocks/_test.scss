@@ -1,0 +1,109 @@
+.test {
+  &__body {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #000;
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.32px;
+    max-width: 290px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  &__container {
+    padding-top: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__dec {
+    font-weight: 800;
+  }
+  &__header {
+    text-align: center;
+    color: #000;
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.96px;
+  }
+  &__img {
+    margin-bottom: 24px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+    background: var(--Primary-White, #fff);
+    box-shadow: 0px 8px 16px -6px rgba(24, 39, 75, 0.08),
+      0px 6px 8px -6px rgba(24, 39, 75, 0.12);
+      transition: all 0.3s ease;
+
+      &:hover{
+        background: #000;
+      }
+  }
+  &__line {
+    margin-bottom: 24px;
+    max-width: 120px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  &__list {
+    margin-top: 40px;
+    padding: 40px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__subheader {
+    color: #000;
+    text-align: center;
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.32px;
+    transition: all 0.3s ease;
+  }
+
+  &__header-item {
+    margin-bottom: 24px;
+    color: #000;
+    text-align: center;
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+  }
+}
+
+.test__item:hover .test__body,
+.test__item:hover .test__header-item,
+.test__item:hover .test__subheader {
+    color: #fff; 
+}
+
+.test__item:hover .test__line {
+    background-color: #fff;
+}
