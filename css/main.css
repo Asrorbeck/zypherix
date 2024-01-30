@@ -143,13 +143,6 @@ html {
   cursor: pointer;
 }
 
-.menu-item {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .hide {
   display: none;
   border: none;
