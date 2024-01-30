@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
     <title>Zypherix - IT Company</title>
   </head>
   <body>
@@ -20,7 +20,11 @@
           </a>
 
           <ul class="header__menu-list">
-            <li class="header__menu-item">
+            <!-- <li class="header__menu-hide"></li> -->
+
+            <li class="header__menu-item menu-item">
+              <button class="hide">x</button>
+
               <a href="#about" class="header__item-link">About Us</a>
             </li>
 
@@ -38,6 +42,12 @@
           </ul>
 
           <button class="header__btn">Log In</button>
+
+          <div class="overlay"></div>
+
+          <button class="header__burger">
+            <img width="20" src="./img/burger.svg" alt="" />
+          </button>
         </div>
       </div>
     </header>
@@ -231,7 +241,11 @@
       <section class="about" id="about">
         <div class="container">
           <div class="about__container">
-            <div class="about__img-wrapper" data-aos="fade" data-aos-duration="1000">
+            <div
+              class="about__img-wrapper"
+              data-aos="fade"
+              data-aos-duration="1000"
+            >
               <img
                 src="./img/about.png"
                 width="300"
@@ -240,7 +254,11 @@
               />
             </div>
 
-            <div class="about__right-wrapper" data-aos="fade" data-aos-duration="1000">
+            <div
+              class="about__right-wrapper"
+              data-aos="fade"
+              data-aos-duration="1000"
+            >
               <h2 class="about__header">
                 About <span class="about__dec">Us</span>
               </h2>
@@ -279,7 +297,7 @@
             </h2>
 
             <ul class="test__list" data-aos="fade" data-aos-duration="1000">
-              <li class="test__item" >
+              <li class="test__item">
                 <img src="./img/test1.png" alt="" class="test__img" />
 
                 <p class="test__body">
@@ -450,4 +468,5 @@
   </script>
 
   <script src="./js/telegram.js"></script>
+  <script src="./js/index.js"></script>
 </html>

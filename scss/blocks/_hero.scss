@@ -1,6 +1,6 @@
 .hero {
-    // height: 100vh;
-    margin-bottom: 60px;
+  padding-top: 100px;
+  margin-bottom: 60px;
   &__body {
     max-width: 600px;
     width: 100%;
@@ -17,9 +17,9 @@
     font-weight: 800;
   }
   &__container {
-    background-image: url('../../img/hero-bg.png');
+    background-image: url("../../img/hero-bg.png");
     background-repeat: no-repeat;
-    background-position: calc(50% + 215px) ;
+    background-position: calc(50% + 215px);
     background-size: 850px 600px;
     padding-left: 32px;
     padding-right: 32px;
@@ -48,7 +48,7 @@
     transition: all 0.3s ease;
 
     &:hover {
-        transform: scale(1.1);
+      transform: scale(1.1);
     }
   }
 

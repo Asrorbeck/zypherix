@@ -69,6 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
   }
   &__subheader {
@@ -96,6 +97,8 @@
     text-transform: capitalize;
     transition: all 0.3s ease;
   }
+
+  
 }
 
 .test__item:hover .test__body,
