@@ -69,3 +69,30 @@
     padding-top: 20px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    &__body {
+      font-size: 16px;
+      margin-bottom: 36px;
+    }
+    &__container {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 280px;
+      background-size: contain;
+      background-position: calc(0% - 20px) 0%;
+      margin-bottom: 20px;
+      margin-bottom: 0;
+    }
+    &__dec-header {
+      font-size: 28px;
+      line-height: 45px;
+    }
+    &__header {
+      font-size: 28px;
+      line-height: 45px;
+      margin-bottom: 32px;
+    }
+  }
+}

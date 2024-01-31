@@ -294,6 +294,30 @@ html {
   padding-top: 20px;
 }
 
+@media only screen and (max-width: 500px) {
+  .hero__body {
+    font-size: 16px;
+    margin-bottom: 36px;
+  }
+  .hero__container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 280px;
+    background-size: contain;
+    background-position: calc(0% - 20px) 0%;
+    margin-bottom: 20px;
+    margin-bottom: 0;
+  }
+  .hero__dec-header {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  .hero__header {
+    font-size: 28px;
+    line-height: 45px;
+    margin-bottom: 32px;
+  }
+}
 .skill {
   margin-top: 60px;
   display: flex;
@@ -399,6 +423,18 @@ html {
   margin-top: 32px;
 }
 
+@media only screen and (max-width: 500px) {
+  .skill__container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .skill__header {
+    font-size: 28px;
+  }
+  .skill__item {
+    padding: 10px;
+  }
+}
 .project {
   background-color: #000;
   color: #fff;
@@ -472,6 +508,42 @@ html {
   transform: scale(1.1);
 }
 
+@media only screen and (max-width: 500px) {
+  .project__container {
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .project__header {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .project__img-link {
+    margin-bottom: 20px;
+  }
+  .project__item {
+    flex-direction: column;
+  }
+  .project__item-body {
+    font-size: 16px;
+    margin-bottom: 28px;
+  }
+  .project__item-header {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 28px;
+  }
+  .project__item-img {
+    max-width: 343px;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+  .project__item-number {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+}
 .about__body {
   color: var(--Zinc-500, #71717a);
   font-family: Sora;
@@ -510,6 +582,23 @@ html {
   width: 100%;
 }
 
+@media only screen and (max-width: 500px) {
+  .about__container {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about__img {
+    margin-bottom: 45px;
+  }
+  .about__header {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .about__body {
+    font-size: 16px;
+  }
+}
 .test__body {
   margin-bottom: 24px;
   text-align: center;
@@ -616,6 +705,27 @@ html {
   background-color: #fff;
 }
 
+@media only screen and (max-width: 500px) {
+  .test__container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+  .test__header {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .test__item {
+    padding: 20px;
+  }
+  .test__list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
 .contact {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -731,12 +841,58 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 300px;
+  width: 100%;
 }
 .contact__wrapper {
   max-width: 600px;
   width: 100%;
 }
+.contact__second-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 
+@media only screen and (max-width: 500px) {
+  .contact {
+    padding-top: 40px;
+  }
+  .contact__second-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact__btn {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .contact__container {
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+  }
+  .contact__dec {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .contact__header {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .contact__input {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .contact__list {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .contact__send {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 .footer {
   background-color: #000;
   padding-top: 24px;
@@ -791,4 +947,18 @@ html {
   line-height: 20px; /* 125% */
   letter-spacing: -0.32px;
   margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .footer__container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer__logo-name {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

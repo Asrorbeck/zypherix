@@ -38,60 +38,58 @@
     background-color: #fff;
 
     &:hover {
-        transform: scale(1.1);
+      transform: scale(1.1);
     }
 
     &::before {
-        content: "";
-        display: inline-block;
-        width: 56px;
-        height: 56px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
+      content: "";
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
     }
 
     &:nth-child(1)::before {
-        background-image: url('../../img/git.svg');
+      background-image: url("../../img/git.svg");
     }
 
     &:nth-child(2)::before {
-        background-image: url('../../img/js.svg');
+      background-image: url("../../img/js.svg");
     }
 
     &:nth-child(3)::before {
-        background-image: url('../../img/sass.svg');
+      background-image: url("../../img/sass.svg");
     }
 
     &:nth-child(4)::before {
-        background-image: url('../../img/nodejs.svg ');
+      background-image: url("../../img/nodejs.svg ");
     }
 
     &:nth-child(5)::before {
-        background-image: url('../../img/react.svg');
+      background-image: url("../../img/react.svg");
     }
     &:nth-child(6)::before {
-        background-image: url('../../img/python.svg');
+      background-image: url("../../img/python.svg");
     }
 
     &:nth-child(7)::before {
-        background-image: url('../../img/django.svg');
+      background-image: url("../../img/django.svg");
     }
 
     &:nth-child(8)::before {
-        background-image: url('../../img/express.svg');
+      background-image: url("../../img/express.svg");
     }
 
     &:nth-child(9)::before {
-        background-image: url('../../img/typescript.svg');
+      background-image: url("../../img/typescript.svg");
     }
 
     &:nth-child(10)::before {
-        background-image: url('../../img/socket.svg');
+      background-image: url("../../img/socket.svg");
     }
   }
-
-
 
   &__list {
     max-width: 1130px;
@@ -104,7 +102,6 @@
     margin-bottom: 40px;
   }
 
-
   &__item-body {
     text-align: center;
     color: #000;
@@ -116,5 +113,21 @@
     letter-spacing: -0.4px;
     text-transform: capitalize;
     margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .skill {
+    &__container {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    &__header {
+      font-size: 28px;
+    }
+    &__item {
+      padding: 10px;
+    }
   }
 }

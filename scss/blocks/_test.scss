@@ -47,11 +47,11 @@
     background: var(--Primary-White, #fff);
     box-shadow: 0px 8px 16px -6px rgba(24, 39, 75, 0.08),
       0px 6px 8px -6px rgba(24, 39, 75, 0.12);
-      transition: all 0.3s ease;
+    transition: all 0.3s ease;
 
-      &:hover{
-        background: #000;
-      }
+    &:hover {
+      background: #000;
+    }
   }
   &__line {
     margin-bottom: 24px;
@@ -97,16 +97,38 @@
     text-transform: capitalize;
     transition: all 0.3s ease;
   }
-
-  
 }
 
 .test__item:hover .test__body,
 .test__item:hover .test__header-item,
 .test__item:hover .test__subheader {
-    color: #fff; 
+  color: #fff;
 }
 
 .test__item:hover .test__line {
-    background-color: #fff;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+  .test {
+    &__container {
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 20px;
+    }
+    &__header {
+      font-size: 28px;
+      line-height: 28px;
+    }
+    &__item {
+      padding: 20px;
+    }
+    &__list {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  }
 }
