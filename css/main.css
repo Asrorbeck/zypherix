@@ -245,7 +245,7 @@ html {
   font-weight: 800;
 }
 .hero__container {
-  background-image: url("../img/hero-bg.png");
+  background-image: url("../../img/hero-bg.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 215px);
   background-size: 850px 600px;
@@ -371,34 +371,34 @@ html {
   background-size: contain;
 }
 .skill__item:nth-child(1)::before {
-  background-image: url("../img/git.svg");
+  background-image: url("../../img/git.svg");
 }
 .skill__item:nth-child(2)::before {
-  background-image: url("../img/js.svg");
+  background-image: url("../../img/js.svg");
 }
 .skill__item:nth-child(3)::before {
-  background-image: url("../img/sass.svg");
+  background-image: url("../../img/sass.svg");
 }
 .skill__item:nth-child(4)::before {
-  background-image: url("../img/nodejs.svg ");
+  background-image: url("../../img/nodejs.svg ");
 }
 .skill__item:nth-child(5)::before {
-  background-image: url("../img/react.svg");
+  background-image: url("../../img/react.svg");
 }
 .skill__item:nth-child(6)::before {
-  background-image: url("../img/python.svg");
+  background-image: url("../../img/python.svg");
 }
 .skill__item:nth-child(7)::before {
-  background-image: url("../img/django.svg");
+  background-image: url("../../img/django.svg");
 }
 .skill__item:nth-child(8)::before {
-  background-image: url("../img/express.svg");
+  background-image: url("../../img/express.svg");
 }
 .skill__item:nth-child(9)::before {
-  background-image: url("../img/typescript.svg");
+  background-image: url("../../img/typescript.svg");
 }
 .skill__item:nth-child(10)::before {
-  background-image: url("../img/socket.svg");
+  background-image: url("../../img/socket.svg");
 }
 .skill__list {
   max-width: 1130px;
